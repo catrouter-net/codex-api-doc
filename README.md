@@ -109,7 +109,7 @@ preferred_auth_method = "apikey"
 
 [model_providers.whatai]
 name = "whatai"
-base_url = "https://api.catrouter.net/v1"
+base_url = "https://catrouter.net/v1"
 wire_api = "responses"
 ```
 
@@ -259,4 +259,4 @@ npm i -g @openai/codex@latest
 
 Codex 中转API、OpenAI Codex 国内直连、AI编程工具推荐、Codex 配置文件、config.toml 写法、GPT-6.1 Sol 接入、GPT-5.6 Codex、GPT-5.5 Codex、中转站靠谱好用、免魔法可试用、稳定低延迟、按量计费便宜、500+模型聚合、Claude Code 对比、Cursor 对比。
 
-官方入口：[CatRouter 中转API](https://api.catrouter.net)
+官方入口：[CatRouter 中转API](https://catrouter.net)
