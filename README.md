@@ -1,4 +1,4 @@
-# OpenAI Codex安装配置CatrouterAPI超详细教程，AI编程工具Codex实战配置文件常见错误总结
+# OpenAI Codex 安装配置 CatRouter API 超详细教程｜GPT-6.1 Sol / GPT-5.6 Codex 接入与常见错误总结（2026 最新）
 
 在现代软件开发中，**代码规模越来越大、技术栈越来越复杂**，开发者花在“理解代码、改动代码、反复验证”的时间，往往远多于真正写新功能的时间。为了解决这一问题，**Codex** 应运而生。
 
@@ -7,6 +7,9 @@
 ![](https://pic.imgdd.cc/item/69831a01d9c88c98816d0632.webp)
 
 在本文中，你将从零开始学习 Codex 的**安装、配置与实际使用方法**，包括如何接入第三方 API、如何在终端和 VS Code 中高效使用，以及遇到常见问题时如何快速排查。即使你从未使用过类似工具，也可以按照本文一步步完成配置，并真正把 Codex 用到你的日常开发中。
+
+> **2026 年 11 月更新**：CatRouter 中转API 已同步上线 **GPT-6.1 Sol**（105 万 token 上下文、输入 $2 / 输出 $10 每百万 token）、**GPT-6 Astra**、**GPT-6 Sol**、**GPT-5.6 Sol / Terra**、**GPT-5.5** 等六代/五代全系模型，Codex 里只需修改 `model` 字段即可切换到最新型号；国内直连、免魔法、可试用，稳定靠谱好用。本文配置示例已更新为 `gpt-5.6-codex`，若你的套餐支持六代模型，可直接改为对应模型名做对比测试。
+
 
 ***
 
@@ -99,7 +102,7 @@ Codex CLI 会读取你的配置文件：一般在 \~/.codex/（Windows 也是用
 ```
 
 model_provider = "whatai"
-model = "gpt-5-codex"
+model = "gpt-5.6-codex"
 model_reasoning_effort = "high"
 disable_response_storage = true
 preferred_auth_method = "apikey"
@@ -250,3 +253,10 @@ npm i -g @openai/codex@latest
 * 命令与 flag 参考：官方提供了“command line options”参考页，并说明 CLI 默认从 \~/.codex/config.toml 读取配置，也支持用 -c key=value 临时覆盖。
 
 * 配置字段的完整参考：官方也有 config reference 页面。
+---
+
+## 长尾关键词与选型速查
+
+Codex 中转API、OpenAI Codex 国内直连、AI编程工具推荐、Codex 配置文件、config.toml 写法、GPT-6.1 Sol 接入、GPT-5.6 Codex、GPT-5.5 Codex、中转站靠谱好用、免魔法可试用、稳定低延迟、按量计费便宜、500+模型聚合、Claude Code 对比、Cursor 对比。
+
+官方入口：[CatRouter 中转API](https://api.catrouter.net)
